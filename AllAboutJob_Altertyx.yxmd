@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>job_descriptions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Job Id" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Experience" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Qualifications" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Salary Range" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="location" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Work Type" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Company Size" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Job Posting Date" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Preference" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Contact Person" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Contact" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Job Title" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Job Portal" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Job Description" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Benefits" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="skills" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Responsibilities" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Company" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+            <Field name="Company Profile" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Job Posting Date</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Job Posting Date</RootName>
+          <Delimeters value="-" />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Trim([Benefits],&quot;'{ AND '}&quot;)" field="Benefits" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Benefits = Trim([Benefits],"'{ AND '}")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1122" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Salary Range</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Salary</RootName>
+          <Delimeters value="-" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1398" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name_month" selected="True" type="String" size="10" />
+            <SelectField field="Salary1" selected="True" type="Int16" size="2" />
+            <SelectField field="Salary2" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1890" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\job_descriptions_clean.xlsx|||job_descriptions</File>
+          <Passwords />
+          <Disable>True</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>job_descriptions_clean.xlsx
+Query=job_descriptions</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>( !IsNull([Company Profile]))</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>( !IsNull([Company Profile]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="834" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="12" />
+          <Fields>
+            <Field name="Num_Month" />
+            <Field name="Name_month" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01</c>
+              <c>January</c>
+            </r>
+            <r>
+              <c>02</c>
+              <c>February</c>
+            </r>
+            <r>
+              <c>03</c>
+              <c>March</c>
+            </r>
+            <r>
+              <c>04</c>
+              <c>April</c>
+            </r>
+            <r>
+              <c>05</c>
+              <c>May</c>
+            </r>
+            <r>
+              <c>06</c>
+              <c>June</c>
+            </r>
+            <r>
+              <c>07</c>
+              <c>July</c>
+            </r>
+            <r>
+              <c>08</c>
+              <c>August</c>
+            </r>
+            <r>
+              <c>09</c>
+              <c>September</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>October</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>November</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>December</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="954" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Month" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Num_Month" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Experience" selected="True" input="Left_" />
+                <SelectField field="Left_Qualifications" selected="True" input="Left_" />
+                <SelectField field="Left_Salary Range" selected="True" input="Left_" />
+                <SelectField field="Left_location" selected="True" input="Left_" />
+                <SelectField field="Left_Country" selected="True" input="Left_" />
+                <SelectField field="Left_latitude" selected="True" input="Left_" />
+                <SelectField field="Left_longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Work Type" selected="True" input="Left_" />
+                <SelectField field="Left_Job Posting Date" selected="True" input="Left_" />
+                <SelectField field="Left_Job Title" selected="True" input="Left_" />
+                <SelectField field="Left_Role" selected="True" input="Left_" />
+                <SelectField field="Left_Benefits" selected="True" input="Left_" />
+                <SelectField field="Left_skills" selected="True" input="Left_" />
+                <SelectField field="Left_Responsibilities" selected="True" input="Left_" />
+                <SelectField field="Left_Company" selected="True" input="Left_" />
+                <SelectField field="Left_Year" selected="True" input="Left_" />
+                <SelectField field="Right_Name_month" selected="True" input="Right_" />
+                <SelectField field="Left_Month" selected="True" input="Left_" />
+                <SelectField field="Left_Day" selected="True" input="Left_" />
+                <SelectField field="Left_Sector" selected="True" input="Left_" />
+                <SelectField field="Left_Industry" selected="True" input="Left_" />
+                <SelectField field="Right_Num_Month" selected="False" input="Right_" type="String" size="10" />
+                <SelectField field="Left_Job Id" selected="True" input="Left_" />
+                <SelectField field="Left_Company Size" selected="True" input="Left_" />
+                <SelectField field="Left_Preference" selected="True" input="Left_" />
+                <SelectField field="Left_Contact Person" selected="True" input="Left_" />
+                <SelectField field="Left_Contact" selected="True" input="Left_" />
+                <SelectField field="Left_Job Portal" selected="True" input="Left_" />
+                <SelectField field="Left_Job Description" selected="True" input="Left_" />
+                <SelectField field="Left_Company Profile" selected="True" input="Left_" />
+                <SelectField field="Left_Job Posting Date1" selected="True" input="Left_" />
+                <SelectField field="Left_Job Posting Date2" selected="True" input="Left_" />
+                <SelectField field="Left_Job Posting Date3" selected="True" input="Left_" />
+                <SelectField field="Left_Company Profile1" selected="True" input="Left_" />
+                <SelectField field="Left_Company Profile2" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([Company Profile],0,FindString([Company Profile], ',&quot;City'))" field="Company Profile" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Company Profile = Substring([Company Profile],0,FindString([Company Profile], ',...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="142">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="558" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Company Profile</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Company Profile</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="144">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="642" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace(Replace(Replace(Replace([Company Profile2], &quot;{&quot;, &quot;&quot;), &quot;Industry&quot;, &quot;&quot;), &quot;:&quot;, &quot;&quot;), '&quot;', &quot;&quot;)" field="Company Profile2" size="254" type="V_String" />
+            <FormulaField expression="Replace(Replace(Replace(Replace(Trim([Company Profile1]), &quot;{&quot;, &quot;&quot;), &quot;Sector&quot;, &quot;&quot;), &quot;:&quot;, &quot;&quot;), '&quot;', &quot;&quot;)" field="Company Profile1" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Company Profile2 = Replace(Replace(Replace(Replace([Company Profile2], "{", ""),...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1206" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Salary1</Field>
+          <RegExExpression value="[^0-9]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Salary1</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Experience_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1302" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Salary2</Field>
+          <RegExExpression value="[^0-9]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Salary2</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Experience_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Job Id" selected="False" />
+            <SelectField field="Experience" selected="True" type="String" size="15" />
+            <SelectField field="Qualifications" selected="True" type="String" size="10" />
+            <SelectField field="Salary Range" selected="True" type="String" size="50" />
+            <SelectField field="location" selected="True" type="WString" size="50" />
+            <SelectField field="Country" selected="True" type="String" size="50" />
+            <SelectField field="latitude" selected="True" type="Double" size="8" />
+            <SelectField field="longitude" selected="True" type="Double" size="8" />
+            <SelectField field="Work Type" selected="True" type="String" size="15" />
+            <SelectField field="Company Size" selected="False" type="Int64" size="8" />
+            <SelectField field="Job Posting Date" selected="False" type="Date" size="10" />
+            <SelectField field="Preference" selected="False" type="String" size="50" />
+            <SelectField field="Contact Person" selected="False" type="String" size="50" />
+            <SelectField field="Contact" selected="False" type="String" size="50" />
+            <SelectField field="Job Title" selected="True" type="String" size="50" />
+            <SelectField field="Role" selected="True" type="String" size="50" />
+            <SelectField field="Job Portal" selected="True" type="String" size="50" />
+            <SelectField field="Job Description" selected="False" />
+            <SelectField field="Benefits" selected="True" size="150" />
+            <SelectField field="Company" selected="True" size="50" />
+            <SelectField field="Company Profile" selected="False" size="110" />
+            <SelectField field="Job Posting Date1" selected="True" rename="Year" type="String" size="4" />
+            <SelectField field="Job Posting Date2" selected="True" rename="Month" type="String" size="2" />
+            <SelectField field="Job Posting Date3" selected="True" rename="Day" type="String" size="2" />
+            <SelectField field="Company Profile1" selected="True" rename="Sector" size="50" />
+            <SelectField field="Company Profile2" selected="True" rename="Industry" size="50" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1038" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Country</FieldFind>
+          <FieldSearch>Country</FieldSearch>
+          <ReplaceFoundField>Region</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="True" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Region" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="161">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="930" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\all_countries_by_region.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>all_countries_by_region.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Region" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\all_countries_by_region.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\thana\OneDrive\Desktop\Mahidol\3-1\ITDS 343\Project\V2\all_countries_by_region.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="163">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1782" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Avg_Salary" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Avg_Salary - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="164">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1050" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thana\AppData\Local\Temp\Engine_18364_7418bf8d8132bc43ba4e9220a917047c_\Engine_18364_f3befc84a6e67f4e9b7b39c64fe5ffc2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="170">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1494" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Region" action="Count" rename="Count_Region" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="172">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1494" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([Salary1] + [Salary2]) / 2" field="Avg_Salary" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Avg_Salary = ([Salary1] + [Salary2]) / 2
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="173">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1590" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Region" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Region" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Job Portal" selected="False" input="Left_" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" input="Right_" />
+                <SelectField field="Right_Job Portal" selected="False" rename="Right_Job Portal" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="175">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="822" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-11-22 19:36:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2022</Operand>
+              <StartDate>2023-11-22 19:36:36</StartDate>
+              <EndDate>2023-11-22 19:36:36</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = "2022"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="177">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1890" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thana\AppData\Local\Temp\Engine_18364_7418bf8d8132bc43ba4e9220a917047c_\Engine_18364_9456d4132171fa40a5073370d88d15dd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="178">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1686" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Salary Range" selected="False" />
+            <SelectField field="Day" selected="False" />
+            <SelectField field="Region" selected="True" type="String" size="20" />
+            <SelectField field="Salary1" selected="False" />
+            <SelectField field="Salary2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="179">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="126" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Job Id" />
+            <Field field="Experience" />
+            <Field field="Qualifications" />
+            <Field field="Salary Range" />
+            <Field field="location" />
+            <Field field="Country" />
+            <Field field="latitude" />
+            <Field field="longitude" />
+            <Field field="Work Type" />
+            <Field field="Company Size" />
+            <Field field="Job Posting Date" />
+            <Field field="Preference" />
+            <Field field="Contact Person" />
+            <Field field="Contact" />
+            <Field field="Job Title" />
+            <Field field="Role" />
+            <Field field="Job Portal" />
+            <Field field="Job Description" />
+            <Field field="Benefits" />
+            <Field field="skills" />
+            <Field field="Responsibilities" />
+            <Field field="Company" />
+            <Field field="Company Profile" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="180">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="126" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thana\AppData\Local\Temp\Engine_18364_7418bf8d8132bc43ba4e9220a917047c_\Engine_18364_21029224952bc442a63c61a0fa1e8d38~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="179" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="180" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="140" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="170" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="172" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="True" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="129" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="175" Connection="True" />
+      <Destination ToolID="129" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Join" />
+      <Destination ToolID="159" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="161" Connection="Output" />
+      <Destination ToolID="159" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="142" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="142" Connection="Output" />
+      <Destination ToolID="144" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="144" Connection="Output" />
+      <Destination ToolID="152" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="148" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="148" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="152" Connection="Output" />
+      <Destination ToolID="175" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="161" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="177" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="170" Connection="Output" />
+      <Destination ToolID="173" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="172" Connection="Output" />
+      <Destination ToolID="173" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="173" Connection="Join" />
+      <Destination ToolID="178" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="178" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="179" Connection="Unique" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Project_Alteryx(3.3)</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c3c6b17e-112e-4322-907c-5744e2e2deb6" />
+      <Telemetry>
+        <PreviousWorkflowId value="d27b7e1c-641f-4d9d-a85e-fbf07a719e24" />
+        <OriginWorkflowId value="e57bd3b7-28c5-4b10-9c9f-4e60acf5008b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
